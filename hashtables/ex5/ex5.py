@@ -1,12 +1,12 @@
 # Your code here
 
 
-
 def finder(files, queries):
     """
     YOUR CODE HERE
     """
     # Your code here
+    print(queries)
 
     return result
 

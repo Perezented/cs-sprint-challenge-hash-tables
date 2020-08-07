@@ -3,8 +3,13 @@ def intersection(arrays):
     YOUR CODE HERE
     """
     # Your code here
+    newdict = {}
+    result = []
+    for i in range(len(arrays)):
+        arrays[i].sort()
+        newdict[i] = arrays[i]
 
-    return result
+    print(newdict)
 
 
 if __name__ == "__main__":
